@@ -1,0 +1,16 @@
+
+.chat-area{border:1px solid #e0e0e0;position: relative}
+.chat-area header{background:#5388a7;color:#fff;border-bottom:1px solid #5388a9;}
+.chat-area header h1{font-size:24px;margin:0;}
+.chat-area .message #box{height:400px;overflow: auto}
+.chat-area .message #input input{border-radius:0;margin:0;border:none;border-top: 1px solid #e0e0e0;background: #fff;padding:16px;display:block;}
+.chat-area .message #input input:focus{-webkit-box-shadow:none;border-color:#e0e0e0;}
+.chat-area #btn-socket{position: absolute;top:50%;left:50%;margin-left:-90px;margin-top:-22px;}
+.chat-area #btn-socket-out{position: absolute;margin: 0;right:0;top:0;}
+.chat-area .overlay{background:rgba(0,0,0,0.5);width:100%;height:100%;position: absolute;;top:0;left: 0;}
+.chat-area .msg-container .date{position: absolute;	right: 10px;	top: 10px;	font-size: 12px;	color: #909090;}
+.chat-area .msg-container{position: relative;padding: 10px;min-height: 60px;border-bottom:1px solid #e0e0e0;}
+.chat-area .msg-container.joining{min-height: auto;color:#357ebd;font-style: italic;}
+.chat-area .msg-container.left{min-height: auto;color:#909090;font-style: italic;}
+.chat-area .msg-container.message .msg-content{font-weight: bold;font-size: 16px;}
+.chat-area .msg-container.message .msg-content strong{font-weight: normal;font-size: 14px;display:block;margin-top:5px;}
